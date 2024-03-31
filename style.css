@@ -31,7 +31,8 @@ body{
 }
 #result{
     text-align: end;
-    background-color: whitesmoke;
+    color: black;
+    background-color: white;
     font-size: x-large;
     height: 200px;
     width: 288px;
@@ -46,7 +47,7 @@ button{
     font-size:30px;
     margin-top: 10px;
     background-color: gray;
-   border-radius: 25px;
+   border-radius: 47%;
 }
 #button_back{
     background-color: black;
@@ -61,3 +62,4 @@ button{
     border: 1px solid white;
     filter: drop-shadow(1px 2px 2px white);
 }
+ 
