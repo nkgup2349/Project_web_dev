@@ -1,12 +1,15 @@
 // alert("helllo be ");
 
-let aa=prompt("You want to which type of theme : d for dark and l for light")
-if(aa=="l"){
-    document.body.style.backgroundColor="red";
-    document.body.style.backgroundColor = "red";
-}
+// let aa=prompt("You want to which type of theme : d for dark and l for light")
+// if(aa=="ww"){
+    // document.body.style.backgroundColor="white";
+    // document.getElementById("AC").backgroundColor="white";
+    // document.getElementById("button_back").style.backgroundColor="white";
+    // document.getElementById("main_outer").style.border="3px solid black"
+ 
+// }
 
-let  a = prompt("enter your age ");
+// let  a = prompt("enter your age ");
 if(a>=18){
     alert("You are adult : you can enter this website:");
 }

@@ -4,24 +4,24 @@ body{
     height:900px;
     display: flex;
     justify-content: center;
-    background-color:darkblue;
+    background-color:black;
     align-items: center;
 }
 #main_outer{
     height:629px;
     width: 295px;
     border-radius: 30px;
-    border: 2px solid white;
+    border: 2px solid rgb(253, 252, 252);
     background-color:black;
 
 }
 #logo{
     margin-top: 0px;
-    color: white;
-    font-size: 30px;
+    color: rgb(128, 135, 41);
+    font-size: 33px;
     display: flex;
    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom: 3px solid black;
