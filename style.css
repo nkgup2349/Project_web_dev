@@ -6,6 +6,8 @@ body{
     justify-content: center;
     background-color:black;
     align-items: center;
+    /* background: url();
+    background-size: cover; */
 }
 #main_outer{
     height:629px;
@@ -13,6 +15,8 @@ body{
     border-radius: 30px;
     border: 2px solid rgb(253, 252, 252);
     background-color:black;
+    box-shadow: 0px 3px 15px white;
+    background:  rgba(0,0,0,0.5);
 
 }
 #logo{
@@ -20,7 +24,6 @@ body{
     color: rgb(128, 135, 41);
     font-size: 33px;
     display: flex;
-   
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -30,12 +33,16 @@ body{
     height: 40px;
 }
 #result{
-    text-align: end;
+    text-align: right;
     color: black;
     background-color: white;
-    font-size: x-large;
+    font-size:50px;
+    font-style:bold;
+    background: 0 0 0 0.5%;
     height: 200px;
     width: 288px;
+    background:rgba(255, 255, 255,0.7);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,0.8);
 }
 button{
     height: 60px;
@@ -48,6 +55,7 @@ button{
     margin-top: 10px;
     background-color: gray;
    border-radius: 47%;
+   cursor: pointer;
 }
 #button_back{
     background-color: black;
@@ -62,4 +70,8 @@ button{
     border: 1px solid white;
     filter: drop-shadow(1px 2px 2px white);
 }
+button:active{
+    background-color:darkslateblue;
+}
+ 
  

@@ -4,7 +4,10 @@ function myvalue(v){
     res.value+= v;
 } 
 function result(){
-    res.value=eval(res.value);   
+    res.innerHTML="<br>";  
+    res.value=eval(res.value); 
+
+    // res.value="";
 }
 
 function cls(){
