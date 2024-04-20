@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>login in approx white background-color</title>
+   <!-- <link rel="stylesheet" href"style.css"> -->
+</head>
+ 
+<style>
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 300px;
+        background-color: lightblue;
+         
+        
+        }
+    #main{
+        background-color: rgb(30,23, 355 , 0.8);
+        border: 2px solid black;
+        filter: drop-shadow(40px 40px 10px black);
+        height: 500px;
+        width: 400px;
+        border-radius: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    #login_div{
+    
+        height: 40px;
+        width: 100%;
+        color: black;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    #login{
+        color: white;
+    }
+    div{
+        display: inline-block;
+        margin-top: 30px;
+    }
+    #username{
+        height: 35px;
+       width: 250px;
+       color: darkgoldenrod;
+        display: block;
+        background-color: white;
+        border:2px solid black;
+        filter: drop-shadow(2px 2px 2px black);
+        border-radius: 10px;
+        text-align: center;
+    
+        
+    }
+    #password{
+        border-radius: 10px;
+        border:2px solid black;
+        filter: drop-shadow(2px 2px 2px black);
+        height: 35px;
+        text-align: center;
+        width: 250px;
+        display: block;
+        background-color: white;
+      
+    }
+    button{
+        background-color: black;
+        color: white;
+        height: 50px;
+        filter: drop-shadow( 5px 5px 3px black);
+        width:200px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    a{
+        text-decoration: none;
+        color:skyblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    
+    </style>
+<body>
+   <div id="main">
+   <form action="action.php">
+       <div id="login_div">
+           <h5 id="login ">login</h5>
+       </div>
+<br>
+       <div>
+           <input type="text" id="username" placeholder="Enter your username" style="color: black;">
+       </div>
+
+       <br>
+       <div>
+           <input type="password" id="password" placeholder="Enter your password" style="color: black;">
+       </div>
+
+<br>
+
+
+<div>
+  <input type="checkbox" id="cheakbox" name="remember me ">Remember me 
+  
+</div>
+<div>
+   
+   <a href="#">Forget password</a>
+   
+</div>  <br>
+<div>
+          
+           <button>Submit</button>
+
+       </div>
+       <br>
+
+       <div>
+          Don't have an account 
+           <a href="#">click here </a>
+
+       </div>
+       
+   </form>
+</div>
+</body>
+</html>
