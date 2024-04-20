@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login in blueviolet</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+ </head>
+ <style>
+     
+*{
+margin-top: 0px;
+padding-top: 0px;
+}
+body{
+
+display: flex;
+justify-content: center;
+background-color: blueviolet;
+}
+#main{
+height: 500px;
+/* margin-left: 45%; */
+text-align: center;
+margin-top: 320px;
+width: 350px;
+background-color: white;
+border: 2px solid black;
+border-radius:  20px;
+background-color:  rgba(93, 85, 200);
+filter: drop-shadow(0px 0px 10px black);
+}
+@keyframes  loginanimate{
+from{color: black;}
+to{color: red;}
+}
+#login{
+text-align: center;
+font-weight: 1000;
+display: block;
+font-family: sans-serif;
+font-size: xx-large;
+background-color: rgba(93, 85, 200, 0.56);
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+
+}
+#user{
+
+text-align: center;
+display: block;
+text-decoration: wavy;
+}
+#pass{
+text-align: center;
+}
+div{
+margin-top: 40px;
+display: inline-block;
+
+}
+input{
+border: 2px solid black;
+height: 40px;
+width: 250px;
+border-radius: 12px;
+filter: drop-shadow(7px 7px 3px black);
+}
+button{
+height: 40px;
+background-color: black;
+border: 2px solid white;
+border-radius: 10px;
+font-weight: 1000;
+font-size: 22px;
+margin-top: -10px;
+
+color: white;
+width: 140px;
+}
+#chekabox{
+height: 20px;
+filter: none;
+
+width: 20px;
+}
+#Register{
+margin-top: 20px;
+display: block;
+
+}
+
+a{
+text-decoration: none;
+
+color: coral;
+}
+#Forget{
+font-size: small;
+margin-left: 10px;
+}
+#Remember{
+display: inline-block;
+font-size: small;
+
+}
+
+#button:hover{
+background-color: white;
+border: 2px solid black;
+color: black;
+}
+#button:active{
+background-color: brown;
+color: yellow;
+
+}
+
+ 
+ </style>
+ <body>
+   <header>
+    <div id="nav"></div>
+
+   </header>
+    
+    <div id="main">
+        <div id="login">Login</div>
+        <div  id="userdiv"><input type="text" id="user" placeholder="Username"  ></div>
+        <div  id="passdiv"><input type="password" id="pass" placeholder="password"></div>
+        <div id=""><input type="checkbox" id="chekabox"><p id="Remember">Remember me</p></div>
+        <div id="Forget"><a href="#">Forget password?</a></div>
+        <div id="div_button"><button id="button">Submit</button></div>
+        <br>
+        <div id="Register">Don't Have an account <a href="#">Register</a></div>
+    </div>
+ </body>
+ </html>
+
+ 
