@@ -15,8 +15,6 @@ async function cheakwheather(city){
     }
 
     else{
-
-    
     var data =  await responce.json();
     console.log(data);
  
