@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: inherit;
+    font:inherit;
 }
 
 
@@ -37,18 +37,14 @@ a{
     justify-content: space-around;
     margin-left: 50%;
 }
-main{
-    
-}
-
+ 
 footer{
     width: 100%;
-    margin-top: 400px;
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     color: white;
-    height: 500px;
+    height:400px;
 
 }
 
@@ -58,7 +54,7 @@ footer{
 }
 
 footer h1{
-    margin-left: 20px;
+    margin-left: 3%;
     font-size: 22px;
 }
  footer p{
@@ -68,12 +64,13 @@ footer h1{
  
 .pp{
     width: 80%;
-    margin-left: 50px;
+    margin-left:15%;
     line-height: 20px;
+    margin-top: 25px;
     
 }
 .imgcon{
-    margin-left: 20px;
+    margin-left: 15%;
     margin-top: 20px;
     width: 300px;
 }
@@ -128,3 +125,90 @@ footer img {
     height: 100px;
     overflow-wrap: break-word;
 }
+.contact{
+    margin-top: 20px;
+    margin-left:22%;
+}
+.contact a{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+main{
+    background:linear-gradient(145deg , black ,rgb(22, 34, 69));
+    margin: auto;
+}
+.fornt_main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+.part1{
+    width: 50%;
+    height:  850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2{
+    width: 50%;
+    height:850px;
+}
+.part1 img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: drop-shadow(0  0  0.75rem  rgb(12, 54, 88));
+}
+
+.part2p{
+    width: 400px;
+}
+.part2p p{
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.slidepart2{
+    margin: 300px 0px auto 75px;
+}
+#greencol{
+    color: rgb(8, 151, 29);
+}
+.slidepart2 h2{
+    
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.slidepart2 h1{
+    margin-top: 11px;
+    font-family:sans-serif ;
+    font-size: 50px;
+}
+.slidepart2 h3{
+    color: rgb(8, 151, 29);
+    margin-top: 11px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.contactprof{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.contactprof img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+a:hover{
+     cursor: pointer;
+}
+ 
