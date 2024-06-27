@@ -122,7 +122,7 @@ footer img {
 }
 #Suggestions_box {
     height: 100px;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 .contact{
     margin-top: 20px;
@@ -211,14 +211,15 @@ a:hover{
      cursor: pointer;
 }
 .skillname{
-    border-top: 1px solid white  ;
+    /* border-top: 1px solid white  ; */
     border-bottom: 1px solid white;
-    background: linear-gradient(135deg, rgb(10, 17, 53) , rgb(7, 7, 53),  rgb(8, 8, 20));
+    
+    /* background: linear-gradient(135deg, rgb(10, 17, 53) , rgb(7, 7, 53),  rgb(8, 8, 20)); */
  }
 .skillname h1{
     margin-left:10%;
     font-family:cursive;
-    font-size: 45px;
+    font-size: 50px;
     color:darkgray;
     font-weight: 800;
 }
@@ -245,6 +246,7 @@ a:hover{
     border: 1px solid black;
     /* filter: drop-shadow(5px  -5px  3px rgb(214, 230, 243)); */
 }
+ 
  
 .skilltoprow img{
     width: 100%;
@@ -279,4 +281,22 @@ a:hover{
     height: 40px;
     color: white;
     border-radius: 8px;
+}
+ 
+.buttsk  {
+    margin-top: -10px;
+    width: 100%;
+    height: auto;
+    color: red;
+    border-radius: 20px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.buttsk p{
+    transform: rotate(180deg);
+}
+@keyframes anime {
+    
 }
