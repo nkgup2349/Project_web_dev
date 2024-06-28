@@ -300,3 +300,9 @@ a:hover{
 @keyframes anime {
     
 }
+#optionopt{
+    overflow-wrap: wrap;
+}
+option{
+    width:20px
+}
