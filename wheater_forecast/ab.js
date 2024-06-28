@@ -49,3 +49,6 @@ document.querySelector(".error").style.display="none";
 searchbtn.addEventListener("click" , ()=>{;
     cheakwheather(searchbox.value);
 })
+
+
+ 
