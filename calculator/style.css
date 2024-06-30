@@ -4,7 +4,7 @@ body{
     height:900px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(135deg , rgb(8, 20, 52)  ,rgb(63, 61, 117) );
+    background: linear-gradient(135deg , rgb(11, 13, 20)  ,rgb(16, 13, 62) );
     align-items: center;
 }
 #main_outer{
@@ -13,7 +13,7 @@ body{
     border-radius: 30px;
     border: 2px solid rgb(0, 0, 0);
     background-color:black;
-    box-shadow: 10px 10px  10px rgb(14, 16, 19);
+    box-shadow: 0 0  20px rgb(126, 130, 137);
     background:  rgba(0,0,0,0.5);
 
 }
