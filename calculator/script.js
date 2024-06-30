@@ -6,8 +6,6 @@ function myvalue(v){
 function result(){
     res.innerHTML="<br>";  
     res.value=eval(res.value); 
-
-    // res.value="";
 }
 
 function cls(){
